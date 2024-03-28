@@ -1,0 +1,43 @@
+#box-model-desafio {
+    margin: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    outline: 1px solid blue;
+    background-color: yellow;
+}
+.titulo-do-desafio{
+    background-color: black;
+    color: white;
+    border: none;
+}
+/* ---------------------------------------------- */
+/* minha resolução: */
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(175, 125, 255);
+    outline: auto;
+    font-size: 25px;
+}
+#header {
+    padding: 0.5px;
+}
+.meio{
+    padding:5px;
+    margin: 5px;
+}
+.meio .vermelho {
+    color: red;
+}
+.meio .azul {
+    color: blue;
+}
+.meio .amarelo {
+    color: yellow;
+}
+h2 {
+    border-bottom: 1px solid rgb(98, 0, 255);
+    margin:10px;
+    display: flex;
+    justify-content: center;
+}
