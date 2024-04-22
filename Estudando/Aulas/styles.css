@@ -1,0 +1,341 @@
+/* 4 - External css */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color:green;
+}
+
+/* classes */
+.paragraph {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+/* Ids */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 5px; 
+}
+
+/* ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* nome de cores */
+.color-name {
+    color:crimson;
+}
+
+/* hex */
+.hex {
+    color:#55a398;
+}
+
+.hex2 {
+    color:#a4abd1;
+}
+
+/* mais sobre hex */
+.simple-hex {
+    color:#333;
+}
+
+.simple-hex2 {
+    color:#801;
+}
+
+/* RGB */
+.rgb {
+    color:rgb(255,0,0);
+}
+
+.mixed-rgb {
+    color:rgb(231,093,213);
+}
+
+/* RBGA */
+.rgba {
+    color:rgba(200,024,45, .5);
+}
+
+/* HSL */
+.hsl {
+    color:hsl(100,20%,50%);
+}
+
+.hsl-2 {
+    color:hsl(201, 55%,50%);
+}
+
+/* background color */
+.bg {
+    background-color:#000 ;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color:black ;
+    color: purple;
+}
+
+/* background opacity */
+.bg-opacity {
+    background-color:green;
+    opacity: 0.5;
+    color: rgb(0, 225, 255);
+}
+
+.bg-opacity-2{
+    background-color:rgb(122, 124, 122);
+    opacity: 0.3;
+    color: yellow;
+}
+
+/* RGBA com opacidade */
+.rgba-opacity {
+    background-color: rgba(90,120,20, 0.2);
+    color: black;
+}
+
+/* background image */
+.bg-image {
+    background-image: url("panda.jpg");
+    padding: 10px;
+    color: white;
+}
+
+.bg-image-2 {
+    background-image: url("cachorronauta.png");
+    padding: 10px;
+    color: #000;
+}
+
+/* centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("panda.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* text align */
+.text-aligned{
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+}
+
+/* Text decoration */
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration:line-through;
+}
+.remove-underline{
+    text-decoration: none;
+}
+
+/* Transformação de texto */
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+/* Espaçamento de letra */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* Fontes */
+.serif{
+    font-family: Georgia;
+}
+.sans-serif{
+    font-family: Helvetica;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+/* Estilo de fonte */
+.italico{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* Font weight */
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+/* Font size */
+.small{
+    font-size: 6px;
+}
+.big{
+    font-size: 78px;
+}
+
+/* Display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 10px;
+    display:inline-block;
+}
+.block{
+    color:white;
+    display:block;
+    background-color: blue;
+    margin:10px;
+}
+
+/* Escondendo Elementos */
+.invisible{
+    display: none;
+}
+/* Positions - Static: */
+.static{
+    position: static;
+    background-color: #391;
+    color:white;
+    width: 100px;
+    height:100px;
+}
+
+/* Positions - Relative */
+.relative{
+    position: relative;
+    background-color: #399;
+    color:rgb(0, 0, 0);
+    width: 100px;
+    height:100px;
+    top:100px;
+    left: 40px;
+}
+
+/* Position - Absolute */
+.absolute{
+    position: absolute;
+    background-color: rgb(137, 100, 240);
+    color:rgb(250, 218, 218);
+    width: 100px;
+    height:100px;
+    top:2px;
+    right:2px;
+}
+
+/* Position - Relative + Absolute */
+.relative-container{
+    width: 300px;
+    height:300px;
+    border: 1px solid red;
+    margin-top:120px;
+    position: relative;
+}
+.absolute-1,
+.absolute-2 {
+    width:50px;
+    height:50px;
+    background-color: #422;
+    position: absolute;
+}
+.absolute-1{
+    top:10px;
+    left:10px;
+}
+
+.absolute-2{
+    bottom:10px;
+    right:10px;
+}
+
+/* Position - Fixed */
+.fixed{
+    width: 100px;
+    height:100px;
+    border: 1px solid blue;
+    background-color: #851;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+/* Position - Sticky */
+.sticky{
+    width: 1000px;
+    height:100%;
+    border: 1px solid green;
+    background-color: #994;
+    position: sticky;
+    top:0px;
+    right:0px;
+}
+
+/* Z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width:50px;
+    height:50px;
+    background-color: #123;
+    position: absolute;
+}
+.absolute-3{
+    top:0;
+    left:0;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left:10px;
+    background-color: #246;
+    z-index: 2;
+}
+.absolute-5{
+    top:40px;
+    left:40px;
+    background-color: #453;
+    z-index: 1;
+}
