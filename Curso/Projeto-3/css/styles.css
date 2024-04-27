@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+h1,
+h2,
+h3{
+    color: #a1a1a1;
+}
+p{
+    color: #929292;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #393f44;
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;    
+}
+
+.logo{
+    width: 95px;
+    margin-top: -2px;
+}
+
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;   
+}
+
+.navbar-items a:hover{
+    color: #ccc;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color:red ;
+    border-radius: 5px;
+}
+
+.navbar-items .default-btn:hover{
+    background-color: rgb(65, 0, 0);
+    color: #fff;
+}
+
+.main-banner{
+    background-image: url("../img/Main-banner.jpg");
+    background-size: cover;
+    background-position: center;  
+    padding: 18rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #d1d1d1;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(0, 0, 0) 3px 2px 3px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+/* services */
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li {
+    flex:1 1 200px ;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.bx {
+    cursor: pointer;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.services-container h3 {
+    margin-bottom: 25px;
+}
+
+.services-container p {
+    line-height: 24px;
+}
+
+/* icones */
+.bxs-car-crash {
+    color: #ef2929;
+}
+
+.bx-money-withdraw {
+    color: #ef8f29;
+}
+
+.bx-cart-add {
+    color: #34f13496;
+}
+
+/* prices and planes */
+.pricing-container {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2 {
+    font-size: 32px;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #797979;
+    color:#2c2c2c
+}
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #551111;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+.plan .price:hover {
+    background-color: #fd0000fd;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #393f44;
+    padding: 50px 0;
+}
+
+.plan .plan-btn{
+    background-color: #551111;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.plan .plan-btn:hover{
+    background-color: #fd0000fd;
+}
+
+.plan .recommended{
+background-color: #fd0000fd;
+}
+.plan .recommended:hover{
+background-color: #551111;
+}
+
+/* serach domain */
+.searchdomain-container{
+    background-color: #393f44;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.searchdomain-container h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p {
+  color: #D5D5D5;
+  font-size: 24px;
+  margin-bottom: 25px;  
+}
+
+.searchdomain-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomain-container input[type="text"]{
+    color: #333;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input[type="submit"] {
+    background-color: red;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .8;
+}
+.searchdomain-container input[type="submit"]:hover {
+    background-color: rgb(65, 0, 0);
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .9;
+}
+
+/* contact form */
+.contact-container{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.contact-container input[type="submit"]:hover {
+    background-color: rgb(65, 0, 0);
+}
+
+/* footer */
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 100px;
+}
+
+
+/* responsividade */
+
+/* Small laptops 1110px + */
+@media (max-width: 1110px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan{
+        margin: 0 5px;
+    }
+}
+
+
+/* Tablet 900px */
+@media (max-width: 900px) {
+    .main-banner p{
+        padding: 6rem;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+
+/* Celular 576px */
+@media (max-width: 576px) {
+
+    html,
+    body {
+        overflow: hidden;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .navbar-items li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchdomain-container h2{
+        font-size: 28px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem; 
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
