@@ -51,7 +51,7 @@ nav {
     margin-left: 25px;
 }
 .navbar-items a{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     transition: 0.5s;   
 }
@@ -356,7 +356,11 @@ footer{
 
     html,
     body {
-        overflow: hidden;
+        overflow: scroll;
+    }
+
+    .logo{
+        margin-left: -35px;
     }
 
     .main-banner p {
@@ -364,7 +368,7 @@ footer{
     }
 
     .navbar-items li{
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 10px;
     }
 
