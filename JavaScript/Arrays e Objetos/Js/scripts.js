@@ -301,7 +301,7 @@ const[veiculoA, veiculoB, veiculoC] = myList;
 console.log(veiculoA, veiculoB, veiculoC);
 
 // 27 - JSON
-const myJSon = '{"name": "Gabriel, "age": "19", "skills": ["Nada"]}'
+const myJSon = '{"name": "Gabriel", "age": "19", "skills": ["Nada"]}'
 console.log(myJSon);
 console.log(typeof myJSon);
 
