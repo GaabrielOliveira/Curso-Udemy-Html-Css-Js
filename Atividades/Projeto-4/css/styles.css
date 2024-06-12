@@ -83,7 +83,7 @@ body {
     position: relative;
 }
 
-.line{
+.line {
     border-top: 1px solid #dbdbdb;
     width: 268px;
     margin: 25px auto 35px;
@@ -92,11 +92,11 @@ body {
 .separator span {
     position: absolute;
     text-transform: uppercase;
-    color:#bbb;
+    color: #bbb;
     background-color: #fff;
     top: -6px;
-    width: 50xp;
-    margin-left: -10px;
+    width: 50px;
+    margin-left: -25px;
     font-size: 14px;
 }
 
